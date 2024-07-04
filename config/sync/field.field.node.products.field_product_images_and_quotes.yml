@@ -1,0 +1,31 @@
+uuid: 8ff589e1-554c-41d4-90a3-ab963558de95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_images_and_quotes
+    - node.type.products
+    - paragraphs.paragraphs_type.product
+  module:
+    - entity_reference_revisions
+id: node.products.field_product_images_and_quotes
+field_name: field_product_images_and_quotes
+entity_type: node
+bundle: products
+label: 'Product images and quotes'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      product: product
+    negate: 0
+    target_bundles_drag_drop:
+      product:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

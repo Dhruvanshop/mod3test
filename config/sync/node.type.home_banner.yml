@@ -1,0 +1,18 @@
+uuid: dbc7ae78-95c6-4c9c-bf8e-e2b453e3a5f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Home Banner'
+type: home_banner
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

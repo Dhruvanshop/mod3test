@@ -1,0 +1,36 @@
+uuid: f9e3ad6f-549c-4d08-8225-7cb8d133d0e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.product.field_image_quotes
+    - field.field.paragraph.product.field_product_images
+    - image.style.flexslider_full
+    - paragraphs.paragraphs_type.product
+  module:
+    - image
+    - text
+id: paragraph.product.default
+targetEntityType: paragraph
+bundle: product
+mode: default
+content:
+  field_image_quotes:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_product_images:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: flexslider_full
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
