@@ -1,0 +1,41 @@
+uuid: b1c4e53f-2126-42c1-b250-b3bc5083ab91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.products.field_product_features
+    - field.field.node.products.field_product_images_and_quotes
+    - flexslider.optionset.default
+    - node.type.products
+  module:
+    - flexslider_fields
+    - text
+    - user
+id: node.products.default
+targetEntityType: node
+bundle: products
+mode: default
+content:
+  field_product_features:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_product_images_and_quotes:
+    type: flexslider_entity
+    label: hidden
+    settings:
+      view_mode: default
+      optionset: default
+      link: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

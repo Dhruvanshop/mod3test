@@ -1,0 +1,14 @@
+uuid: bebec447-3e78-4987-93bc-b3ae56690c0c
+langcode: en
+status: true
+dependencies: {  }
+name: recent_news
+label: 'recent news'
+effects:
+  c2e02bd7-4da1-459b-a039-58dd19d5d10c:
+    uuid: c2e02bd7-4da1-459b-a039-58dd19d5d10c
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50

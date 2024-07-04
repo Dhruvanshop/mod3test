@@ -1,0 +1,25 @@
+uuid: 10642452-ad88-4699-8b0a-aef2621335a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.hero
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_hero
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'system_menu_block:hero'
+settings:
+  id: 'system_menu_block:hero'
+  label: Hero
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

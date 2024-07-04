@@ -1,4 +1,4 @@
-name: mod3test
+name: employee management portal
 recipe: drupal10
 config:
   webroot: web

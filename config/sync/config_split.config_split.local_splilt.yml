@@ -1,0 +1,22 @@
+uuid: e0270bc7-9b3a-4950-8703-323eabcb4fb4
+langcode: en
+status: false
+dependencies: {  }
+id: local_splilt
+label: 'Local Splilt'
+description: 'this is config split for local '
+weight: 0
+stackable: false
+no_patching: false
+storage: collection
+folder: ''
+module:
+  devel: 0
+  views_ui: 0
+  webform: 0
+  webform_ui: 0
+  webform_views: 0
+theme: {  }
+complete_list:
+  - system.site
+partial_list: {  }

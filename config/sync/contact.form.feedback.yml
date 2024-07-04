@@ -1,14 +1,14 @@
-uuid: f750ef33-eabb-44f7-bb53-65fd62520833
+uuid: 4ed2901f-e668-47ba-9fb5-764ebb461aa4
 langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
 id: feedback
-label: 'Website feedback'
+label: 'Get in touch'
 recipients:
   - dhruv210803@gmail.com
 reply: ''
 weight: 0
-message: 'Your message has been sent.'
-redirect: ''
+message: 'thank you for reaching us out'
+redirect: /contact-us

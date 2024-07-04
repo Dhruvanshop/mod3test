@@ -1,11 +1,16 @@
-uuid: c29ed8db-6361-4d39-895d-ccdbef735a3f
+uuid: c2bc2125-dfc5-4ce9-b577-67b781e16c24
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_images
+    - field.field.node.page.field_our_partners
+    - flexslider.optionset.default
     - node.type.page
   module:
+    - flexslider_fields
+    - image
     - text
     - user
 _core:
@@ -20,9 +25,35 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 1
+    region: content
+  field_images:
+    type: flexslider
+    label: above
+    settings:
+      optionset: default
+      image_style: ''
+      caption: '0'
+      image_loading:
+        attribute: lazy
+      image_link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_our_partners:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
     region: content
   links:
-    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
     region: content
 hidden: {  }
